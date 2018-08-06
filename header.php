@@ -34,7 +34,7 @@
         <div class="menu">
             <ul>
                 <li><a href="<?php echo esc_url(home_url('/'));?>">Strona głowna</a></li>
-                <li><a href="<?php echo site_url('/blog/'); ?>">Wydarzenia</a></li>
+                <li><a href="<?php echo site_url('/events/'); ?>">Wydarzenia</a></li>
                 <li><a href="<?php echo site_url('/gallery/'); ?>">Zdjęcia</a></li>
                 <li><a href="<?php echo site_url('/contact/'); ?>">Kontakt</a></li>
             </ul>
@@ -52,7 +52,7 @@
         <div class="nav-block" id="nav-block" id="nav-blocka">
             <ul>
                     <li><a href="<?php echo esc_url(home_url('/'));?>">Strona głowna</a></li>
-                    <li><a href="<?php echo site_url('/blog/'); ?>">Wydarzenia</a></li>
+                    <li><a href="<?php echo site_url('/events/'); ?>">Wydarzenia</a></li>
                     <li><a href="<?php echo site_url('/gallery/'); ?>">Zdjęcia</a></li>
                     <li><a href="<?php echo site_url('/contact/'); ?>">Kontakt</a></li>
             </ul>

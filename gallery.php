@@ -2,6 +2,18 @@
  
 <?php get_header(); ?>
 
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="background-img" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/1.jpg); width: 100%; height: 300px;">
+                        <div class="back-img-gradient">
+                            <p>Zdjęcia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <?php
         // Start the loop.
         while ( have_posts() ) : the_post();

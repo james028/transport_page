@@ -83,3 +83,67 @@ main {
     background: #000;
     transition: all 0.5s ease-out;
 }
+.background-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-weight: bold;
+    font-size: 54px;
+    text-align: center;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+.main-title {
+    margin: 40px auto 55px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+}
+.main-title:after {
+    position: absolute;
+    content: "";
+    width: 120px;
+    border-top: 2px solid #CBDF0A;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.under-banner {
+    font-size: 32px;
+}
+.under-contact {
+    margin-bottom: 60px;
+}
+.back-img-gradient {
+    background: linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    );
+    height: 300px;
+}
+.background-img {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+.back-img-gradient p {
+    padding-top: 100px;
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.post-one-row {
+    background-color: #fff;
+    min-height: 350px;
+    padding: 30px;
+    border: 2px solid #f4f4f4;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.post-one {
+    background-color: red;
+}
