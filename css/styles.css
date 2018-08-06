@@ -1,0 +1,85 @@
+:root {
+    --one-color: #fff;
+    --two-color: #555;
+    --three-color: #CBDF0A;
+    --center-margin: 0 auto;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    background-color: var(--one-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1px solid #999;
+    z-index: 300;
+}
+.nav-logo {
+    padding-left: 50px;
+}
+.nav-logo img {
+    background: blue;
+    width: 160px;
+    height: auto;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li {
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.menu ul li a:hover {
+    color: var(--three-color);
+}
+.menu ul li a{
+    color: #969696;
+}
+.nav-phone {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    padding-right: 50px;
+}
+.nav-phone .fas {
+    color: var(--three-color);
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+.nav-block {
+   opacity: 0;
+   visibility: hidden;
+   height: 100vh;
+   width:100%;
+   background-color: #969696;
+   position: fixed;
+   top: 90px;
+   right: 0;
+}
+.menu-btn {
+    position: absolute;
+    z-index: 3;
+    right: 35px;
+    top: 35px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    width: 30px;
+    height: 30px;
+    color: #000;
+    display: none;
+}
+.menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: #000;
+    transition: all 0.5s ease-out;
+}
