@@ -28,6 +28,12 @@
 /**
  * Twenty Sixteen only works in WordPress 4.4 or later.
  */
+
+function modify_read_more_link() {
+    return '<a class="more-link" href="' . get_permalink() . '">Przeczytaj</a>';
+}
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+
 if ( version_compare( $GLOBALS['wp_version'], '4.4-alpha', '<' ) ) {
 	require get_template_directory() . '/inc/back-compat.php';
 }

@@ -10,7 +10,8 @@
 	<?php endif; ?>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500i,700,700i" rel="stylesheet">
 	<!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
 
@@ -26,14 +27,24 @@
 
 <body <?php body_class(); ?>>
 
+<div class="preloder" id="page-preloader">
+  <div class="circle"></div>
+</div>
+
+<div id="btn-top" class="btn-top">
+    <div>
+        <i class="fas fa-arrow-up"></i>
+    </div>
+</div>
+
 <main>
         <div class="nav-logo">
-                <a href="<?php echo esc_url(home_url('/'));?>"><img src="assets/img/logo.png" /></a> 
+                <a href="<?php echo esc_url(home_url('/'));?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo(1).jpg" alt="logo"/></a> 
         </div>
         <img src="<?php echo site_url(); ?>/wp-content/themes/strona-bus/content/1.jpg" alt="" />
         <div class="menu">
             <ul>
-                <li><a href="<?php echo esc_url(home_url('/'));?>">Strona głowna</a></li>
+                <li><a href="<?php echo esc_url(home_url('/'));?>">Strona główna</a></li>
                 <li><a href="<?php echo site_url('/events/'); ?>">Wydarzenia</a></li>
                 <li><a href="<?php echo site_url('/gallery/'); ?>">Zdjęcia</a></li>
                 <li><a href="<?php echo site_url('/contact/'); ?>">Kontakt</a></li>
@@ -51,7 +62,7 @@
 
         <div class="nav-block" id="nav-block" id="nav-blocka">
             <ul>
-                    <li><a href="<?php echo esc_url(home_url('/'));?>">Strona głowna</a></li>
+                    <li><a href="<?php echo esc_url(home_url('/'));?>">Strona główna</a></li>
                     <li><a href="<?php echo site_url('/events/'); ?>">Wydarzenia</a></li>
                     <li><a href="<?php echo site_url('/gallery/'); ?>">Zdjęcia</a></li>
                     <li><a href="<?php echo site_url('/contact/'); ?>">Kontakt</a></li>

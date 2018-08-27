@@ -4,7 +4,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col s12 m12">
-            <div class="background-img" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/1.jpg); width: 100%; height: 300px;">
+            <div class="background-img" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/mb.jpg); width: 100%; height: 300px;">
                 <div class="back-img-gradient">
                     <p>Kontakt</p>
                 </div>
@@ -17,8 +17,11 @@
         <div class="col s12 m4 center-align">
             <i class="fas fa-phone-volume"></i>
                     <div class="contact-row">
+                    Piotr Korecki <br>
                     E-mail: koreckibus@wp.pl<br>
-                    Telefon: 509-232-160
+                    Telefon: 509-232-160<br>
+                    NIP: 717 183 33 02<br>
+                    REGON: 36 96 02 894
                     </div>
         </div>
         <div class="col s12 m4 center-align">
@@ -39,7 +42,7 @@
         </div>
     </div>
 </div>
-
+<div id="map" style="height: 400px; width; 100%;"></div>
         <?php
         // Start the loop.
         while ( have_posts() ) : the_post();

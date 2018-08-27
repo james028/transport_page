@@ -19,7 +19,7 @@ get_header(); ?>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col s12 m12">
-					<div class="background-img" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/1.jpg); width: 100%; height: 300px;">
+					<div class="background-img" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/mb.jpg); width: 100%; height: 300px;">
 						<div class="back-img-gradient">
 							<p>Wydarzenia</p>
 						</div>
@@ -29,7 +29,7 @@ get_header(); ?>
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col s12 m12">
+				<div class="col s12 m12 l8 offset-l2">
 					<?php if ( have_posts() ) : ?>
 
 					<?php if ( is_home() && ! is_front_page() ) : ?>
